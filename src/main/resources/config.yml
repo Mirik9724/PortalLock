@@ -1,0 +1,7 @@
+over_radius: 10000 #Radium of MainWorld
+nether_radium: 1250 #Radium of Nether
+
+messages:
+  no_permission: "§cYou don't have permission to execute this command."
+  reload_success: "§aPortalLock config reloaded!"
+  out_of_range: "§cYou can't use portals outside allowed area!"

@@ -1,0 +1,15 @@
+name: PortalLock
+version: '0.1.0'
+main: net.Mirik9724.portalLock.Bukkit.PortalLock
+api-version: '1.18'
+authors: [ Mirik9724 ]
+description: Plugins block nether portals beyond cords and config
+website: https://modrinth.com/plugin/portallock
+folia-supported: true
+
+commands:
+  portalreload:
+    description: Reload PortalLock configuration
+    usage: /portallock-reload
+    permission: portallock.admin
+    permission-message: You do not have permission to reload the config.
